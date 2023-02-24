@@ -1,0 +1,49 @@
+.h1 {
+    color:rgb(224, 48, 72);
+}
+
+.center {
+    text-align: center;
+}
+
+
+.list {
+    list-style-position: inside;
+}
+
+.h3 {
+    color:cornflowerblue;
+}
+
+.müzikaletleri {
+    color: goldenrod;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#navbar ul li a {
+    padding: 0.25rem;
+    background-color: chocolate;
+    border-radius: 7px;
+    margin: 0.0.15rem;
+    color: cornsilk;
+}
+
+#navbar ul li a:hover {
+    color: chocolate;
+    background-color: cornsilk;
+    border: 1px solid chocolate;
+}
