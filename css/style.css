@@ -1,6 +1,6 @@
-.h1 {
+/* .h1 {
     color:rgb(224, 48, 72);
-}
+} */
 
 .center {
     text-align: center;
@@ -9,6 +9,14 @@
 
 .list {
     list-style-position: inside;
+    margin-left: 590px;
+    text-align: left;
+}
+
+.home {
+    list-style-position: inside;
+    text-align: center;
+    margin-right: 65px;
 }
 
 .h3 {
@@ -27,11 +35,17 @@ a:hover {
     color: crimson;
 }
 
+#navbar h1 {
+    color:rgb(224, 48, 72);
+}
+
+
 #navbar ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    
+    /* align-items: center; */
+    margin-right: 35px;
 }
 
 #navbar ul li a {
@@ -40,6 +54,7 @@ a:hover {
     border-radius: 7px;
     margin: 0.0.15rem;
     color: cornsilk;
+    
 }
 
 #navbar ul li a:hover {
